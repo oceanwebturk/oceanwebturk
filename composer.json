@@ -1,0 +1,26 @@
+{
+  "name": "oceanwebturk/oceanwebturk",
+  "description": "The OceanWebTurk Skeleton",
+  "type": "project",
+  "keywords":["oceanwebturk","framework"],
+  "license": "MIT",
+  "homepage":"https://github.com/oceanwebturk/oceanwebturk",
+  "support":{
+    "source": "https://github.com/oceanwebturk/oceanwebturk"
+  },
+  "config":{
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "classmap-authoritative": true
+  },
+  "require":{
+    "php": ">=7.4",
+    "oceanwebturk/core":"*",
+    "oceanwebturk/http":"*",
+    "oceanwebturk/support":"*",
+    "oceanwebturk/database":"*"
+  },
+  "minimum-stability":"dev",
+  "prefer-stable":true
+}
