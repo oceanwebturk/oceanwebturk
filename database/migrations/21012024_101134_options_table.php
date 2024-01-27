@@ -22,10 +22,10 @@ return new class extends Migration{
  }
 
  /**
-  * @return void
+  * @return array
   */
- public function down(): void
+ public function down(): array
  {
-  $this->drop();
+   return $this->drop();
  }
 };

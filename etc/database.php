@@ -11,7 +11,7 @@ return [
    'password' => '',
    'database' => 'mehmetalidurusoy',
    'prefix' => 'owt_',
-   'charset' => 'utf8',
+   'charset' => 'utf8mb4',
    'options' => [],
   ],
  ],
