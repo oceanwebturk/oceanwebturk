@@ -12,12 +12,19 @@
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "sort-packages": true,
-    "classmap-authoritative": true
+    "classmap-authoritative": true,
+    "bin-dir":"./bin"
   },
   "require":{
     "php": ">=7.4",
     "oceanwebturk/framework":"*"
   },
   "minimum-stability":"dev",
-  "prefer-stable":true
+  "prefer-stable":true,
+  "repositories":[
+    {
+     "type":"path",
+     "url":"../framework"
+    }
+  ]
 }
