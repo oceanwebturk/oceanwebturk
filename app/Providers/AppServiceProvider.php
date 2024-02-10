@@ -6,7 +6,7 @@ defined("REAL_BASE_DIR") or die;
  *
  * @package App\Providers
  */
-use OceanWT\Support\ServiceProvider;
+use OceanWebTurk\Support\ServiceProvider;
 class AppServiceProvider extends ServiceProvider
 {
   /**

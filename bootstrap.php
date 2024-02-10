@@ -1,3 +1,3 @@
 <?php 
 include(__DIR__."/vendor/autoload.php");
-$app = new OceanWT\OceanWT(__DIR__.'/');
+$app = new OceanWebTurk\OceanWebTurk(__DIR__.'/');

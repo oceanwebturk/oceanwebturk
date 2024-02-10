@@ -6,7 +6,7 @@ defined("REAL_BASE_DIR") or die;
  * 
  * @package App\Controllers
  */
-use OceanWT\Http\Controller;
+use OceanWebTurk\Http\Controller;
 class Home extends Controller{
  /* index method  */
  public function index()

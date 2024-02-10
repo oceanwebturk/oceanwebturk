@@ -1,6 +1,6 @@
 <?php
 
-use OceanWT\Database\Migration;
+use OceanWebTurk\Database\Migration;
 
 return new class extends Migration{
  /**

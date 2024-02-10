@@ -1,7 +1,7 @@
 <?php
 
 defined("REAL_BASE_DIR") or die;
-use OceanWT\Support\ServiceProvider;
+use OceanWebTurk\Support\ServiceProvider;
 
 return [
   'name' => 'OceanWebTurk',
