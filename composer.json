@@ -20,11 +20,5 @@
     "oceanwebturk/framework":"*"
   },
   "minimum-stability":"dev",
-  "prefer-stable":true,
-  "repositories":[
-  	{
-  	 "type":"path",
-  	 "url":"../framework/"
-  	}
-  ]
+  "prefer-stable":true
 }
