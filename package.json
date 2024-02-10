@@ -1,5 +1,5 @@
 {
- "name":"oceanwebturk",
+ "name": "oceanwebturk",
  "private": true,
  "type": "module",
  "main": "oceanwebturk.js"
