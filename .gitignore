@@ -1,7 +1,5 @@
-/.vs
 /.idea
 /vendor
-/.vsocde
 /node_modules
 composer.lock
 package-lock.json
