@@ -17,8 +17,14 @@
   },
   "require":{
     "php": ">=7.4",
-    "oceanwebturk/framework":"*"
+    "oceanwebturk/framework": "*"
   },
   "minimum-stability":"dev",
-  "prefer-stable":true
+  "prefer-stable":true,
+  "scripts":{
+    "post-update-cmd":["@public"],
+    "public":[
+     "OceanWebTurk\\OceanWebTurk::run"
+    ]
+  }
 }

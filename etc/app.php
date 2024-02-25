@@ -7,7 +7,7 @@ return [
   'name' => 'OceanWebTurk',
   'lang' => 'tr',
   'mode' => 'development',
-  'minify' => true,
+  'minify' => false,
   'defaultTemplateEngine' => 'system',
   'providers' => ServiceProvider::default()->merge([
    App\Providers\AppServiceProvider::class,
