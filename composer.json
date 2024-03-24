@@ -20,11 +20,5 @@
     "oceanwebturk/framework": "*"
   },
   "minimum-stability":"dev",
-  "prefer-stable":true,
-  "scripts":{
-    "post-update-cmd":["@public"],
-    "public":[
-     "OceanWebTurk\\OceanWebTurk::run"
-    ]
-  }
+  "prefer-stable":true
 }
